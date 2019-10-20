@@ -11,26 +11,61 @@ First of you need to install 'multigraph' library if already not installed
 
 * load 'multigraph' library
 
-<pre> library(multigraph)</pre>
+```R  
+library(multigraph)
+```
+
 
 * Load Iris dataset as matrix in matrix variable
-<pre>matrix <- data.matrix(iris)</pre>
+
+```R 
+matrix <- data.matrix(iris)
+```
+
 
 * Matrix transpose because 'cor' method calculate column wise correlation
-<pre>trn <- t(matrix)</pre>
 
-* calculate pairwise correlation (150*150) in pwcor variable
-<pre>pwcor <- cor(trn)</pre>
+```R 
+trn <- t(matrix)
+```
 
-* save calculated (150*150) correlation in csv file
-<pre>write.csv(pwcor, file = "correlation.csv")</pre>
 
-* define scope of node / edge / graph characteristics as list object
+* Calculate pairwise correlation (150*150) in pwcor variable
+
+```R 
+pwcor <- cor(trn)
+```
+
+
+* Save calculated (150*150) correlation in csv file
+
+```R 
+write.csv(pwcor, file = "correlation.csv")
+```
+
+
+* Define scope of node / edge / graph characteristics as list object
+
 ```R 
 scp3 <- list(cex = 1, fsize = 3, pch = c(19, 15), lwd = 1.5, vcol = 2:3)
 ```
 
+
 * Map pairwise correlation (150*150) to 'circ2' layout base graph
-```ruby
+
+```R
 bmgraph(pwcor, layout = "circ2", scope = scp3, main = "Iris correlation using bmgraph")
 ```
+
+![Macbook]({{site.baseurl}}/assets/img/Analysis-of-Iris-Dataset.png)
+
+
+* Calculate mean, median and summary
+
+```R
+mean(pwcor)
+median(pwcor)
+summary(pwcor)
+```
+
+DONE :)
