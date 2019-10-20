@@ -100,7 +100,7 @@ These softwares should be prepared to install Hadoop 2.8.0 on window 10 64bit
 ![java path]({{site.baseurl}}/assets/img/posts/hadoop/java%20path%20setup.png)
 
 ## Hadoop Configuration
-1. Dowload file Hadoop Configuration.zip (Link: https://github.com/MuhammadBilalYar/HADOOP-INSTALLATION-ON-WINDOW-10/blob/master/Hadoop%20Configuration.zip) 
+1. Dowload file [Hadoop Configuration.zip](https://github.com/MuhammadBilalYar/HADOOP-INSTALLATION-ON-WINDOW-10/blob/master/Hadoop%20Configuration.zip) 
 1. Delete file bin on C:\Hadoop-2.8.0\bin, replaced by file bin on file just download (from Hadoop Configuration.zip).
 1. Open cmd and typing command **"hdfs namenode –format"** . You will see 
 ![hdfs namenode –format]({{site.baseurl}}/assets/img/posts/hadoop/hdfs%20namenode%20%E2%80%93format.PNG)
