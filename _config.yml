@@ -1,8 +1,6 @@
 title: MuhammadBilalYar- Blogs
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am a self-motivated Software Engineer with more than 3 years of experience in cloud application development using Microsoft technologies. I have successfully delivered Azure App Service and Function App based microservices.
 permalink: ":title/"
 baseurl: "/blogs" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,12 +9,10 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Muhammad Bilal Yar # add your name
 author-img: https://avatars0.githubusercontent.com/u/24404964 # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+about-author: Software Engineer | .NET | Azure | NodeJS <br/> Always hungry to keep learning. # add description
+social-github: muhammadbilalyar # add your Github handle
+social-linkedin: muhammadbilalyar# add your Linkedin handle
+social-email: mby01@hotmail.com# add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
