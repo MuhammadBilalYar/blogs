@@ -7,7 +7,7 @@ img: Analysis-of-Iris-Dataset.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Iris Dataset, Data Science, Iris analysis, R Programming, Data Analyis]
 ---
-First of you need to install 'multigraph' library if already not installed
+First of all you need to install '[multigraph](https://www.rdocumentation.org/packages/multigraph/versions/0.91)' library if already not installed
 
 * load 'multigraph' library
 
