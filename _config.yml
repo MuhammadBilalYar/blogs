@@ -1,18 +1,18 @@
-title: MuhammadBilalYar- Blogs
+title: MuhammadBilalYar- Tech Blogs
 description: > # this means to ignore newlines until "baseurl:"
   I am a self-motivated Software Engineer with more than 3 years of experience in cloud application development using Microsoft technologies. I have successfully delivered Azure App Service and Function App based microservices.
 permalink: ":title/"
 baseurl: "/blogs" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://muhammadbilalyar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Muhammad Bilal Yar # add your name
 author-img: https://avatars0.githubusercontent.com/u/24404964 # add your photo
 about-author: Software Engineer | .NET | Azure | NodeJS <br/> Always hungry to keep learning. # add description
-social-github: muhammadbilalyar # add your Github handle
-social-linkedin: muhammadbilalyar# add your Linkedin handle
-social-email: mby01@hotmail.com# add your Email address
+social-github: MuhammadBilalYar # add your Github handle
+social-linkedin: MuhammadBilalYar # add your Linkedin handle
+social-email: mby01@hotmail.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
