@@ -67,5 +67,6 @@ mean(pwcor)
 median(pwcor)
 summary(pwcor)
 ```
-
 DONE :)
+
+Feel free to extend this post and don't forget to share with others ... :)
