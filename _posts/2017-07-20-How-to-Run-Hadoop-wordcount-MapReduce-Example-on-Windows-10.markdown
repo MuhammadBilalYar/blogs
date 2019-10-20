@@ -3,11 +3,10 @@ layout: post
 title: How to Run Hadoop wordcount MapReduce on Windows 10
 date: 2017-07-20 19:32:20 +0300
 description: How to Run Hadoop wordcount MapReduce on Windows 10 # Add post description (optional)
-img: hadoop/mapreduce.jpg # Add image post (optional)
+img: MapReduce/mapreduce.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [hadoop, Data Science, Data Analyis, mapreduce]
 ---
-How to Run Hadoop wordcount MapReduce on Windows 10
 
 ## Prepare
 1. Download MapReduceClient.jar (Link: https://github.com/MuhammadBilalYar/HADOOP-INSTALLATION-ON-WINDOW-10/blob/master/MapReduceClient.jar)
@@ -89,3 +88,5 @@ hadoop fs -rm -r /iutput_dir
 ```
 
 ![comm]({{site.baseurl}}/assets/img/posts/MapReduce/command.PNG)
+
+# DONE :)
