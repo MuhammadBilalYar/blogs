@@ -8,6 +8,8 @@ fig-caption: # Add figcaption (optional)
 tags: [hadoop, Data Science, Data Analyis, mapreduce]
 ---
 
+How to Run Hadoop wordcount MapReduce on Windows 10
+
 ## Prepare
 1. Download MapReduceClient.jar (Link: https://github.com/MuhammadBilalYar/HADOOP-INSTALLATION-ON-WINDOW-10/blob/master/MapReduceClient.jar)
 
