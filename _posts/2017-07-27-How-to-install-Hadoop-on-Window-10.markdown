@@ -7,6 +7,7 @@ img: hadoop/Hadoop-On-Window.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [hadoop, Data Science, Data Analyis]
 ---
+Step by step Hadoop 2.8.0 installation on Window 10
 
 ## Prepare:
 These softwares should be prepared to install Hadoop 2.8.0 on window 10 64bit
@@ -17,14 +18,19 @@ These softwares should be prepared to install Hadoop 2.8.0 on window 10 64bit
 ## Set up
 1. Check either Java 1.8.0 is already installed on your system or not, use **"Javac -version"** to check. 
 ![java version]({{site.baseurl}}/assets/img/posts/hadoop/How%20to%20check%20java%20version.png)
+
 1. If Java is not installed on your system then first install java under **"C:\JAVA"**
 ![Java setup]({{site.baseurl}}/assets/img/posts/hadoop/Java.png)
+
 1. Extract file Hadoop 2.8.0.tar.gz or Hadoop-2.8.0.zip and place under **"C:\Hadoop-2.8.0"**.
 ![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop-2.8.0.png)
+
 1. Set the path HADOOP_HOME Environment variable on windows 10(see Step 1,2,3 and 4 below).
 ![hadoop]({{site.baseurl}}/assets/img/posts/hadoop/Hadoop%20Path.png)
+
 1. Set the path JAVA_HOME Environment variable on windows 10(see Step 1,2,3 and 4 below).
 ![java]({{site.baseurl}}/assets/img/posts/hadoop/Java%20Path.png)
+
 1. Next we set the Hadoop bin directory path and JAVA bin directory path.
 ![bin]({{site.baseurl}}/assets/img/posts/hadoop/bin%20directory%20path.png)
 
