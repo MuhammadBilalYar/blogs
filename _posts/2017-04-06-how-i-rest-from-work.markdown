@@ -26,7 +26,9 @@ First of you need to install 'multigraph' library if already not installed
 <pre>write.csv(pwcor, file = "correlation.csv")</pre>
 
 * define scope of node / edge / graph characteristics as list object
-<pre>scp3 <- list(cex = 1, fsize = 3, pch = c(19, 15), lwd = 1.5, vcol = 2:3)</pre>
+```R 
+scp3 <- list(cex = 1, fsize = 3, pch = c(19, 15), lwd = 1.5, vcol = 2:3)
+```
 
 * Map pairwise correlation (150*150) to 'circ2' layout base graph
 ```ruby
