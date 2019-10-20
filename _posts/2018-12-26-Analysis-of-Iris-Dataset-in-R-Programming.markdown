@@ -57,7 +57,7 @@ scp3 <- list(cex = 1, fsize = 3, pch = c(19, 15), lwd = 1.5, vcol = 2:3)
 bmgraph(pwcor, layout = "circ2", scope = scp3, main = "Iris correlation using bmgraph")
 ```
 
-![Macbook]({{site.baseurl}}/assets/img/Analysis-of-Iris-Dataset.png)
+![Analysis of Iris Dataset in R Programming]({{site.baseurl}}/assets/img/Analysis-of-Iris-Dataset.png)
 
 
 * Calculate mean, median and summary
